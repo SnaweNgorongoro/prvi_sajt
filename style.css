@@ -1,0 +1,323 @@
+body {
+    background-image: url(slike/zid.jpg);
+    background-attachment: fixed;
+    max-width: 1200px;
+    font-family: monospace;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.drugibody {
+    background-image: url(slike/gnezda.jpg);
+    background-color: black;
+    max-width: 1200px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.onama {
+    background-image: url(slike/zacin.jpg);
+    background-color: black;
+    max-width: 1200px;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.zadnjibody {
+    background-image: url(slike/dve-viljuske.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    /*height: 500px;
+    background-size: cover;
+    background-position: right;*/   
+}
+
+main {
+    clear: both;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    margin-right: 20px;
+      
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.main-nav li a:hover {
+    border: 1px solid white;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 120px;
+    height: auto;    
+}
+
+.header {
+    max-width: 1200px;
+    height: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.header {
+    background-size: cover;
+}
+
+.naslov {
+    /*position: absolute;*/
+    width: 1200px;
+    margin-top: auto;
+    color: whitesmoke;
+    padding: 30px;
+    margin-top: -100px;
+    position: static;
+}
+
+h1 {
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 80px;
+    text-align: center;
+}
+
+.dugmejesam {
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 440px;
+    text-decoration: none;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: black;
+
+}
+
+.dugmejesam:hover {
+    border: 4px solid white;
+    border-radius: 25px;
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 440px;
+    text-decoration: none;
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: tomato;
+}
+
+.druginaslov {
+    text-align: center;
+    margin-top: -290px;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.container {
+
+    /*margin-top: -180px;*/
+    max-width: 1200px;
+    height: 600px;
+    text-align: center;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+article {
+    position: relative;
+    width: 350px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.novo {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    font-size: 30px;
+    line-height: 80px;
+    background-color: yellowgreen;
+    top: 63px;
+    right: -5px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    border: blue;
+    border-radius: 20px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(80, 70, 80);
+    color: whitesmoke;
+}
+
+button:hover {
+    background-color: tomato;
+}
+
+h3 {
+    background-color: green;
+    padding: 3px;
+    border-radius: 5px;
+    /*width: 250px;*/
+}
+
+article a {
+    color: whitesmoke;
+}
+
+h4 {
+    background-color: black;
+    width: 70px;
+    text-align: center;
+    position: center;
+}
+
+#polje {
+    max-width: 70%;
+    /*background-image: url(slike/dark5-ocisceno.png);*/
+    border-radius: 10px;
+   /* position: absolute;*/
+    color: seashell;
+    font-size: 20px;
+    padding: 20px 40px 20px 40px;
+}
+
+
+.sadrzaj {   
+    max-width: 100px;
+    margin: 20px;
+    position: absolute;
+    clear: both;
+    
+}
+
+.pozadinajedan {
+    background-color: black;
+    width: 100%;
+}
+
+.unutarsadrzaja {    
+    margin: 10px;
+    padding: 50px;
+    border-radius: 25px;
+    display: inline-block;
+}
+
+.unutarsadrzaja img {
+    
+    
+    /*padding: 20px;*/
+}
+
+.unutarsadrzaja img {
+    float: right;
+    padding-left: 430px;
+    width: 800px;
+    height: auto;
+}
+
+p {
+    margin-top: 50px;
+    color: whitesmoke;
+    font-size: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.pozadinazap {
+    background-color: rgba(50, 40, 30, 0.7);
+    border-radius: 20px;
+}
+
+.pozadinazap img {
+    padding: 40px;
+    width: 450px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.trecibody {
+    background-image: url(slike/making.jpg);
+    background-color: rgb(32, 30, 30);
+}
+
+.cetvrtibody {
+    background-image: url(slike/paste-razne.jpg);
+}
+
+a:hover {
+    border: 1px solid white;
+}
+
+
+
+.formular {
+    width: 450px;
+    height: auto;
+    background-color: rgba(22, 18, 14, 0.7);
+    color: whitesmoke;
+    padding: 45px;
+    padding-top: 0px;
+    margin-left: 400px;
+}
+
+form {
+    text-align: center;
+    /*padding: 30px;*/
+}
+
+label {
+    text-align: center;
+}
+
+.pkontakt {
+    text-align: center;
+}
+
+input {
+    text-align: center;
+}
+
+.mapa {
+    margin-left: 370px;
+}
