@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Proizvodi</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="proizvodi.js"></script>
 </head>
 
 <body class="drugibody">
@@ -32,44 +34,51 @@
 
             </div>
             <div class="kartice">
-                <article>
+                <div class="mycart">
+                    <span>Prozvoda u korpi:</span>
+                    <div class="items-incart">0</div><br>
+                    <span>Iznos korpe:</span>
+                    <div class="cart-sum">0</div>
+                  </div>
+
+                <div class="proizvod">
                     <h3>pasta golica</h3>
                     <img src="slike/testenina-golica.jpg" alt="">
                     <h2>100 rsd</h2>
-                    <button>Dodaj u korpu</button>
-                </article>
-                <article>
+                    <button class="btn-addtocart">Dodaj u korpu</button>
+                </div class="proizvod">
+                <div class="proizvod">
                     <div class="novo">Novo</div>
                     <h3>pasta lan</h3>
                     <img src="slike/testenina-lan.jpg" alt="">
                     <h2>100 rsd</h2>
                     <button>Dodaj u korpu</button>
-                </article>
-                <article>
+                </div class="proizvod">
+                <div class="proizvod">
                     <h3>pasta paradajz</h3>
                     <img src="slike/testenina-paradajz.jpg" alt="">
                     <h2>100 rsd</h2>
                     <button>Dodaj u korpu</button>
-                </article>
-                <article>
+                </div class="proizvod">
+                <div class="proizvod">
                     <h3>pasta šargarepa</h3>
                     <img src="slike/testenina-sargarepa.jpg" alt="">
                     <h2>100 rsd</h2>
                     <button>Dodaj u korpu</button>
-                </article>
-                <article>
+                </div class="proizvod">
+                <div class="proizvod">
                     <h3>pasta crni susam</h3>
                     <img src="slike/testenina-crni-susam.jpg" alt="">
                     <h2>100 rsd</h2>
                     <button>Dodaj u korpu</button>
-                </article>
-                <article>
+                </div class="proizvod">
+                <div class="proizvod">
                     <div class="novo">Novo</div>
                     <h3>pasta funky</h3>
                     <img src="slike/testenina-funky.jpg" alt="">
                     <h2>100 rsd</h2>
                     <button>Dodaj u korpu</button>
-                </article>
+                </div class="proizvod">
             </div>
         </div>
     </main>

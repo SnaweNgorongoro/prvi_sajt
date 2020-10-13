@@ -8,12 +8,16 @@ body {
 }
 
 .drugibody {
-    background-image: url(slike/gnezda.jpg);
+    background-image: url(slike/springramps.jpg);
     background-color: black;
     max-width: 1200px;
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.prodavnica {
+    background-image: url(slike/springramps.jpg);
 }
 
 .onama {
@@ -33,9 +37,9 @@ body {
 }
 
 header {
-    /*height: 500px;
+    height: 120px;
     background-size: cover;
-    background-position: right;*/   
+    background-position: right;
 }
 
 main {
@@ -103,6 +107,11 @@ h1 {
     text-align: center;
 }
 
+.dugme {
+   /* border-radius: 25px;*/
+    background-color: violet;
+}
+
 .dugmejesam {
     border: 2px solid white;
     border-radius: 25px;
@@ -155,7 +164,7 @@ h1 {
     margin: 0 auto;
 }
 
-article {
+.proizvod {
     position: relative;
     width: 350px;
     text-align: center;
@@ -171,7 +180,7 @@ article {
     border-radius: 40px;
     font-size: 30px;
     line-height: 80px;
-    background-color: yellowgreen;
+    background-color: rgb(154, 165, 132);
     top: 63px;
     right: -5px;
 }
@@ -244,8 +253,6 @@ h4 {
 }
 
 .unutarsadrzaja img {
-    
-    
     /*padding: 20px;*/
 }
 
@@ -321,3 +328,22 @@ input {
 .mapa {
     margin-left: 370px;
 }
+
+.number-total {
+    background-color:white;
+    width: 100px;
+    height: 150;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.mycart {
+    padding-top: 55px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 200px;
+    background-color: black;
+    border: 1px solid burlywood;
+  }

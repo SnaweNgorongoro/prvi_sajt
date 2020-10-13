@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Prodavnica</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="prodavnica">
+    <header>
+
+        <div class="glavni">
+            <div class="logo">
+                <img src="slike/logo-fuzija.png" alt="logo">
+            </div>
+            <ul class="main-nav">
+                <li><a href="index.html">POČETNA</a></li>
+                <li><a href="onama.html">O NAMA</a></li>
+                <li><a href="prodavnica.html">PRODAVNICA</a></li>
+                <li><a href="recepti.html">RECEPTI</a></li>
+                <li><a href="kontakt.html">KONTAKT</a></li>
+            </ul>
+        </div>
+
+    </header>
+
+
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Sadržaj Vaše korpe:</h4>
+                </div>
+                <div class="modal-body">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Proizvod</th>
+                                <th>Naziv</th>
+                                <th>Cena</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody id="sadrzaj-korpe">
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <span id="zbir"></span>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Zatvorite</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+   
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+           
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span> Vas nalog</a></li>
+                    <li><button class='btn btn-primary korpa' data-toggle="modal" data-target="#myModal">
+                            <span class="glyphicon glyphicon-shopping-cart"></span>
+                            Korpa <span class="badge brojac">0</span></button></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row" id="proizvodi">
+
+        </div>
+    </div><br>
+
+
+
+    <!--<footer class="container-fluid text-center">
+        <p>Online Store Copyright</p>
+        <form class="form-inline">Get deals:
+            <input type="email" class="form-control" size="50" placeholder="Email Address">
+            <button type="button" class="btn btn-danger">Sign Up</button>
+        </form>
+    </footer>-->
+
+
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
